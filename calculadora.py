@@ -48,7 +48,9 @@ def operacion():
                 elif respuesta == 4:
                         print("Ingrese un numero a dividir:")
                         dividir = int(input())
-                        print("Su resultado de la division es: ", dividir / 2)
+                        print("Ingrese el numero entre cuanto quiere dividir:")
+                        dividir1 = int(input())
+                        print("Su resultado de la division es: ", dividir / dividir1)
 
                 elif respuesta == 5:
                         print("Hasta Luego gracias por usar la calculadora")
